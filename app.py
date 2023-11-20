@@ -114,7 +114,6 @@ async def get_user_names(array_of_user_ids, logger, client):
 
 
 @slack_app.command("/slackblast")
-@slack_app.command("/backblast-custom")
 @slack_app.command("/backblast")
 async def command(ack, body, respond, client, logger):
     await ack()
@@ -380,7 +379,7 @@ async def command(ack, body, respond, client, logger):
             "callback_id": "backblast-id",
             "title": {
                 "type": "plain_text",
-                "text": "F3 South Cary Backblast"
+                "text": "F3 Carpex Backblast"
             },
             "submit": {
                 "type": "plain_text",
