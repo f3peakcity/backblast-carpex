@@ -11,7 +11,7 @@ Slackblast is an application that you integrate with your F3 region's Slack, com
 > [!TIP]
 > For a short tutorial on how to fill out a backblast, you can [share this video](https://www.loom.com/share/705b67bfd30f40ae902fae7a6c1a7421) with the Pax!
 
-![Screenshot](img/SlackBlast-Modal.png)
+<img src="img/SlackBlast-Modal.png" height="200" alt="Slackblast modal in Slack"/>
 
 ## Background
 
@@ -31,7 +31,7 @@ The overall flow goes like this:
 
 # Reference
 
-Refer to the following sections for quick reference values for the cloud and Slack apps for Slackblast. For more details steps to set up the app, see the **Setup Guide** later in this doc.
+Refer to the following sections for quick reference values for the cloud and Slack apps for Slackblast. For more detailed steps to set up the app, see the **Setup Guide** later in this doc.
 ## Environment variables
 
 Slackblast requires the following environment variables to be set in the cloud app, such as Azure App Service.
@@ -153,9 +153,9 @@ Set up the Slackblast app in Slack. For more help creating a Slack app, [see the
    2. Click **Install to Workspace**. 
    3. Review the app actions, which looks like the following figure, then click **Allow**.
 
-   ![Slack installation confirmation screen](img/slack-install-confirm.png)
+   <img src="img/slack-install-confirm.png" height="200" alt="Slack installation confirmation" />
 
-   1. Now that the app is installed, copy the **Bot User OAuth Token**, in a format such as `xoxb-12345...`
+7. Now that the app is installed, copy the **Bot User OAuth Token**, in a format such as `xoxb-12345...`
 
 <!-- Only needed if want to restrict to a channel 7. Get the Slack channel ID that you want the backblasts to post to.
    1. Open Slack in desktop or web (not mobile).
@@ -218,7 +218,7 @@ Now that you have a cloud app set up, deploy the Slackblast code from your forke
    4. Right-click `Application Settings`, then click **Upload Local Settings**.
    5. In the command pallet at the top of your VScode window, click the `.env` file that you just created. If you do not see the correct filepath, click **Browse** and find your file.
    
-   ![Azure sync env var](img/azure-sync-env.png)
+   <img src="img/azure-sync-env.png" height="200" alt="Azure sync env var"/>
 
 ## Step 5: Configure the Slack app
 
