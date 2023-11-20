@@ -11,7 +11,7 @@ Slackblast is an application that you integrate with your F3 region's Slack, com
 > [!TIP]
 > For a short tutorial on how to fill out a backblast, you can [share this video](https://www.loom.com/share/705b67bfd30f40ae902fae7a6c1a7421) with the Pax!
 
-<img src="img/SlackBlast-Modal.png" height="200" alt="Slackblast modal in Slack"/>
+<img src="img/SlackBlast-Modal.png" height="400" alt="Slackblast modal in Slack"/>
 
 ## Background
 
@@ -153,7 +153,7 @@ Set up the Slackblast app in Slack. For more help creating a Slack app, [see the
    2. Click **Install to Workspace**. 
    3. Review the app actions, which looks like the following figure, then click **Allow**.
 
-   <img src="img/slack-install-confirm.png" height="200" alt="Slack installation confirmation" />
+   <img src="img/slack-install-confirm.png" height="300" alt="Slack installation confirmation" />
 
 7. Now that the app is installed, copy the **Bot User OAuth Token**, in a format such as `xoxb-12345...`
 
@@ -218,7 +218,7 @@ Now that you have a cloud app set up, deploy the Slackblast code from your forke
    4. Right-click `Application Settings`, then click **Upload Local Settings**.
    5. In the command pallet at the top of your VScode window, click the `.env` file that you just created. If you do not see the correct filepath, click **Browse** and find your file.
    
-   <img src="img/azure-sync-env.png" height="200" alt="Azure sync env var"/>
+   <img src="img/azure-sync-env.png" height="400" alt="Azure sync env var"/>
 
 ## Step 5: Configure the Slack app
 
